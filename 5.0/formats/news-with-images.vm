@@ -84,7 +84,7 @@
                     <a href="$_EscapeTool.xml($NiLink)" class="panel panel-default" alt="link to news item">
                         <img class="img-responsive" src="$_EscapeTool.xml($NiImg)" alt="$_EscapeTool.xml($NiimgAlt)" />
                         <div class="panel-heading">
-                            <p class="panel-news-date small">$_EscapeTool.xml($NiDate)</p>
+                            <span class="panel-news-date small">$_EscapeTool.xml($NiDate)</span>
                             <h3 class="panel-news-title">$_EscapeTool.xml($NiHeadline)</h3>
                         </div>
                         #if ($NewsType == "call-to-action")
@@ -106,7 +106,7 @@
         <a class="panel panel-default url0-${categoryStringReplace}" alt="link to news item">
             <img alt="" class="img-responsive" id="img0-${categoryStringReplace}" />
             <div class="panel-heading">
-                <p class="panel-news-date small" id="date0-${categoryStringReplace}">&#160;</p>
+                <span class="panel-news-date small" id="date0-${categoryStringReplace}">&#160;</span>
                 <h3 class="panel-news-title" id="head0-${categoryStringReplace}">&#160;</h3>
             </div>
         </a>
@@ -116,7 +116,7 @@
         <a class="panel panel-default url1-${categoryStringReplace}" alt="link to news item">
             <img alt="" class="img-responsive" id="img1-${categoryStringReplace}" />
             <div class="panel-heading">
-                <p class="panel-news-date small" id="date1-${categoryStringReplace}">&#160;</p>
+                <span class="panel-news-date small" id="date1-${categoryStringReplace}">&#160;</span>
                 <h3 class="panel-news-title" id="head1-${categoryStringReplace}">&#160;</h3>
             </div>
         </a>
@@ -126,7 +126,7 @@
         <a class="panel panel-default url2-${categoryStringReplace}" alt="link to news item">
             <img alt="" class="img-responsive" id="img2-${categoryStringReplace}" />
             <div class="panel-heading">
-                <p class="panel-news-date small" id="date2-${categoryStringReplace}">&#160;</p>
+                <span class="panel-news-date small" id="date2-${categoryStringReplace}">&#160;</span>
                 <h3 class="panel-news-title" id="head2-${categoryStringReplace}">&#160;</h3>
             </div>
         </a>
